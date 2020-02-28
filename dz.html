@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Домашка</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+	<script>
+		function next() {
+			document.getElementById("pic").src='p2.jpg';
+		}
+		function back() {
+			document.getElementById("pic").src='p1.jpg';
+		}
+	</script>
+</head>
+<body>
+		<div class="main" id="main">
+			<div class="arr">
+				<ul class="arrow">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="#about">Обо мне</a></li>
+					<li><a href="#link">Связаться со мной</a></li>
+					<li><a href="dz.html">Домашка</a></li>
+				</ul>
+			</div>
+			<div class="social">
+				<a href="https://vk.com/"><img src="vk.png" alt="VK"></a>
+				<a href="https://www.youtube.com/?gl=RU&hl=ru"><img src="yt.png" alt="YT"></a>
+				<a href="https://www.instagram.com/?hl=ru"><img src="inst.png" alt="INST"></a>
+			</div>
+		</div>
+		<content class="dz">
+			<div class="sitebar">
+					<ul class="bar">
+						<li><a href="https://vk.com/">Вконтакте</a></li>
+						<li><a href="https://www.youtube.com/?gl=RU&hl=ru">Ютуб</a></li>
+						<li><a href="https://www.instagram.com/?hl=ru">Инстаграмм</a></li>
+						<li><a href="https://www.avito.ru/omsk">Авито</a></li>
+					</ul>
+		    </div>
+		    <div class="picture">
+		    	<img  id="pic" src="p1.jpg" onmouseover="next()" onmouseout="back()">
+		    </div>
+		</content>
+</body>
+</html>
