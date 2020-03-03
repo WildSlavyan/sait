@@ -194,20 +194,14 @@ h3 {
 
 
 
-
-
-
-
+li {
+	list-style-type: none;
+}
 .picture img {
-	width: 300px;
-	margin-right: 500px;
+	width: 400px;
 }
 .dz a {
 	color: white;
-}
-.dz a:hover {
-	transition: 0.3s;
-	color: #700402;
 }
 .dz a {
 	list-style-type: none
@@ -215,16 +209,16 @@ h3 {
 content {
 	display: flex;
 	justify-content: space-between;
+	padding: 0 150px;
 }
 .sitebar {
 	background: linear-gradient(to bottom,#1b1d2e,#0f101c);
 }
-.bar {
-	width: 100px;
-	height: 250px;
-	margin-right: 200px;
-}
 .bar li {
 	padding: 10px;
 	font-size: 18px;
+}
+.bar li:hover {
+	background: #4575D4;
+	transition: 0.3s;
 }
