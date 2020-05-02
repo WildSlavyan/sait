@@ -139,11 +139,7 @@ p {
 	align-items: center;
 }
 #poll>div {
-	width: 500px;
+	display: block;
 	margin-bottom: 100px;
 }
-#poll {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-}
+
